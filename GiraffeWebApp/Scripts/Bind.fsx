@@ -1,28 +1,3 @@
-/// nameof
-// https://stackoverflow.com/questions/48304398/is-there-an-equivalent-of-cs-nameof-in-f
-open Microsoft.FSharp.Quotations
-
-let nameof (q:Expr<_>) = 
-  match q with 
-  | Patterns.Let(_, _, DerivedPatterns.Lambdas(_, Patterns.Call(_, mi, _))) -> mi.Name
-  | Patterns.PropertyGet(_, mi, _) -> mi.Name
-  | DerivedPatterns.Lambdas(_, Patterns.Call(_, mi, _)) -> mi.Name
-  | _ -> failwith "Unexpected format"
-
-let any<'R> : 'R = failwith "!"
-
-nameof <@ any<System.Random>.Next @>
-nameof <@ System.Char.IsControl @>
-nameof <@ System.Char.ToLower @>
-
-///
-
-let quote = <@ 
-                let x = 5
-                let y = x
-                y
-            @>
-
 ///map
 
 /// bind: map followed flatten
@@ -78,3 +53,45 @@ let validateAll = validate1 >> Result.bind validate2
 validateAll 5
 validateAll 7
 validateAll 3
+
+// 10/16
+module Option = 
+    let bind f m =
+       match m with
+       | None -> 
+           None
+       | Some x -> 
+           x |> f 
+
+// bind 
+let words = [| "one"; "two"; "three"; null |]
+let toChars (y:string) = if y = null then Array.empty else y.ToCharArray()
+let chars = words |> Array.collect toChars
+
+// JSON parsing
+type Object = { Value : int }
+type JsonResponse = { Values : Object[] }
+let parse jsonResponse = jsonResponse.Values
+let jsonResponses = 
+    [| 
+        {Values = [| {Value = 1} |] }
+        { Values = [| {Value = 2}; { Value = 3 } |] } 
+    |]
+let getObjects jsonResponses =  jsonResponses |> Array.collect parse
+getObjects jsonResponses
+
+let options = [Some 1; None; Some 2]
+options |> List.choose id
+options |> List.choose (fun x -> x)
+let s = Some 5
+let t = id s
+
+let singlePass options = options |> List.choose (fun o -> Option.map (fun i -> i + 1) o)
+
+//2 passes
+let doublePass options = 
+    options
+    |> List.map (Option.map (fun x -> x + 1))
+    |> List.choose id
+
+let composed loi = (Option.map >> List.map) (fun x -> x + 1) loi

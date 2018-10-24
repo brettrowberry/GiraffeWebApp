@@ -55,12 +55,29 @@ let indexHandler (name : string) =
     let view      = Views.index model
     htmlView view
 
+
+[<CLIMutable>]
+type Person =
+    {
+        FirstName : string
+        LastName  : string
+    }
+
+let personHandler (person : Person) : HttpHandler =
+    sprintf "Hello %s %s" person.FirstName person.LastName
+    |> Successful.OK
+
 let webApp =
     choose [
         GET >=>
             choose [
                 route "/" >=> indexHandler "world"
                 routef "/hello/%s" indexHandler
+            ]
+        POST >=>
+            choose [
+                routeBind<Person> "/p/{firstName}/{lastName}" personHandler
+                //TODO POST and bind to BODY not route
             ]
         setStatusCode 404 >=> text "Not Found" ]
 
