@@ -2,8 +2,22 @@
 http://blog.ploeh.dk/2016/09/26/decoupling-decisions-from-effects/
 http://blog.ploeh.dk/2017/02/02/dependency-rejection/
 
+# assert
+
 # Reflection
 https://github.com/eiriktsarpalis/TypeShape
+
+# DSL
+
+# Unit Converter
+//library and Giraffe app
+//DU
+//units of measure
+
+//Length.csv name, abbrev, value
+US feet, ft, 0.33
+//Time.csv
+//Mass.csv
 
 # F# Compiler on .NET Core
 `/Users/brett/.dotnet/sdk/2.1.300/FSharp`

@@ -1,8 +1,8 @@
 let funcs = 
             [
-                (fun x -> x % 2 = 0)
-                (fun x -> x % 3 = 0)
-                (fun x -> x % 5 = 0)
+                fun x -> x % 2 = 0
+                fun x -> x % 3 = 0
+                fun x -> x % 5 = 0
             ]
 
 let any x = funcs |> List.exists (fun f -> f x)
@@ -60,7 +60,7 @@ let foldAnyFuncs' x =
 foldAnyFuncs' 3
 foldAnyFuncs' 7
 
-let generateFolder x = (fun state f -> state || f x)
+let generateFolder x = fun state f -> state || f x
 let generateFolderObfuscated x state f = state || f x
 
 let foldAnyFuncs'' x =
