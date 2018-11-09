@@ -67,17 +67,23 @@ let personHandler (person : Person) : HttpHandler =
     sprintf "Hello %s %s" person.FirstName person.LastName
     |> Successful.OK
 
+let nameHandler (name) : HttpHandler = 
+    sprintf "Hello %s" name
+    |> Successful.OK
+
 let webApp =
     choose [
         GET >=>
             choose [
                 route "/" >=> indexHandler "world"
-                routef "/hello/%s" indexHandler
+                routef "/helloPage/%s" indexHandler
+                routef "/hello/%s" nameHandler
+                route "/ping" >=> text "pong"
             ]
         POST >=>
             choose [
-                routeBind<Person> "/p/{firstName}/{lastName}" personHandler
-                //TODO POST and bind to BODY not route
+                routeBind<Person> "/person/{firstName}/{lastName}" personHandler
+                route "/person" >=> bindJson<Person> personHandler
             ]
         setStatusCode 404 >=> text "Not Found" ]
 
