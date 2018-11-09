@@ -8,6 +8,7 @@ open Microsoft.AspNetCore.Hosting
 open Microsoft.Extensions.Logging
 open Microsoft.Extensions.DependencyInjection
 open Giraffe
+open UnitConversions
 
 // ---------------------------------
 // Models
@@ -67,8 +68,8 @@ let personHandler (person : Person) : HttpHandler =
     sprintf "Hello %s %s" person.FirstName person.LastName
     |> Successful.OK
 
-let nameHandler (name) : HttpHandler = 
-    sprintf "Hello %s" name
+let nameHandler (name) : HttpHandler =
+    Say.hello "Justin"
     |> Successful.OK
 
 let webApp =
