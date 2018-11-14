@@ -1,0 +1,16 @@
+namespace PaketLoadScripts
+
+#load "/home/justin/code/fsharp/GiraffeWebApp/GiraffeWebApp/.paket/load/net471/Microsoft.AspNetCore.Authentication.Core.csx" 
+#load "/home/justin/code/fsharp/GiraffeWebApp/GiraffeWebApp/.paket/load/net471/Microsoft.AspNetCore.Hosting.Abstractions.csx" 
+#load "/home/justin/code/fsharp/GiraffeWebApp/GiraffeWebApp/.paket/load/net471/Microsoft.AspNetCore.Http.csx" 
+#load "/home/justin/code/fsharp/GiraffeWebApp/GiraffeWebApp/.paket/load/net471/Microsoft.AspNetCore.Http.Extensions.csx" 
+#load "/home/justin/code/fsharp/GiraffeWebApp/GiraffeWebApp/.paket/load/net471/Microsoft.AspNetCore.HttpOverrides.csx" 
+#load "/home/justin/code/fsharp/GiraffeWebApp/GiraffeWebApp/.paket/load/net471/Microsoft.Extensions.Logging.Abstractions.csx" 
+#load "/home/justin/code/fsharp/GiraffeWebApp/GiraffeWebApp/.paket/load/net471/Microsoft.Extensions.Options.csx" 
+#load "/home/justin/code/fsharp/GiraffeWebApp/GiraffeWebApp/.paket/load/net471/System.Buffers.csx" 
+#load "/home/justin/code/fsharp/GiraffeWebApp/GiraffeWebApp/.paket/load/net471/System.IO.Pipelines.csx" 
+#load "/home/justin/code/fsharp/GiraffeWebApp/GiraffeWebApp/.paket/load/net471/System.Memory.csx" 
+#load "/home/justin/code/fsharp/GiraffeWebApp/GiraffeWebApp/.paket/load/net471/System.Numerics.Vectors.csx" 
+#load "/home/justin/code/fsharp/GiraffeWebApp/GiraffeWebApp/.paket/load/net471/System.Runtime.CompilerServices.Unsafe.csx" 
+#load "/home/justin/code/fsharp/GiraffeWebApp/GiraffeWebApp/.paket/load/net471/System.Security.Principal.Windows.csx" 
+#r "/home/justin/.nuget/packages/microsoft.aspnetcore.server.iisintegration/2.1.2/lib/netstandard2.0/Microsoft.AspNetCore.Server.IISIntegration.dll" 

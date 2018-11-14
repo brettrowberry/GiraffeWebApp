@@ -1,0 +1,18 @@
+namespace PaketLoadScripts
+
+#load "/home/justin/code/fsharp/GiraffeWebApp/GiraffeWebApp/.paket/load/monotouch/Microsoft.AspNetCore.Diagnostics.fsx" 
+#load "/home/justin/code/fsharp/GiraffeWebApp/GiraffeWebApp/.paket/load/monotouch/Microsoft.AspNetCore.HostFiltering.fsx" 
+#load "/home/justin/code/fsharp/GiraffeWebApp/GiraffeWebApp/.paket/load/monotouch/Microsoft.AspNetCore.Hosting.fsx" 
+#load "/home/justin/code/fsharp/GiraffeWebApp/GiraffeWebApp/.paket/load/monotouch/Microsoft.AspNetCore.Routing.fsx" 
+#load "/home/justin/code/fsharp/GiraffeWebApp/GiraffeWebApp/.paket/load/monotouch/Microsoft.AspNetCore.Server.IISIntegration.fsx" 
+#load "/home/justin/code/fsharp/GiraffeWebApp/GiraffeWebApp/.paket/load/monotouch/Microsoft.AspNetCore.Server.Kestrel.fsx" 
+#load "/home/justin/code/fsharp/GiraffeWebApp/GiraffeWebApp/.paket/load/monotouch/Microsoft.AspNetCore.Server.Kestrel.Https.fsx" 
+#load "/home/justin/code/fsharp/GiraffeWebApp/GiraffeWebApp/.paket/load/monotouch/Microsoft.Extensions.Configuration.CommandLine.fsx" 
+#load "/home/justin/code/fsharp/GiraffeWebApp/GiraffeWebApp/.paket/load/monotouch/Microsoft.Extensions.Configuration.EnvironmentVariables.fsx" 
+#load "/home/justin/code/fsharp/GiraffeWebApp/GiraffeWebApp/.paket/load/monotouch/Microsoft.Extensions.Configuration.FileExtensions.fsx" 
+#load "/home/justin/code/fsharp/GiraffeWebApp/GiraffeWebApp/.paket/load/monotouch/Microsoft.Extensions.Configuration.Json.fsx" 
+#load "/home/justin/code/fsharp/GiraffeWebApp/GiraffeWebApp/.paket/load/monotouch/Microsoft.Extensions.Configuration.UserSecrets.fsx" 
+#load "/home/justin/code/fsharp/GiraffeWebApp/GiraffeWebApp/.paket/load/monotouch/Microsoft.Extensions.Logging.fsx" 
+#load "/home/justin/code/fsharp/GiraffeWebApp/GiraffeWebApp/.paket/load/monotouch/Microsoft.Extensions.Logging.Configuration.fsx" 
+#load "/home/justin/code/fsharp/GiraffeWebApp/GiraffeWebApp/.paket/load/monotouch/Microsoft.Extensions.Logging.Console.fsx" 
+#load "/home/justin/code/fsharp/GiraffeWebApp/GiraffeWebApp/.paket/load/monotouch/Microsoft.Extensions.Logging.Debug.fsx" 

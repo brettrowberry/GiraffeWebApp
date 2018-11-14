@@ -1,0 +1,18 @@
+namespace PaketLoadScripts
+
+#load "/home/justin/code/fsharp/GiraffeWebApp/GiraffeWebApp/.paket/load/net463/System.Collections.csx" 
+#load "/home/justin/code/fsharp/GiraffeWebApp/GiraffeWebApp/.paket/load/net463/System.Diagnostics.Debug.csx" 
+#load "/home/justin/code/fsharp/GiraffeWebApp/GiraffeWebApp/.paket/load/net463/System.Globalization.csx" 
+#load "/home/justin/code/fsharp/GiraffeWebApp/GiraffeWebApp/.paket/load/net463/System.IO.csx" 
+#load "/home/justin/code/fsharp/GiraffeWebApp/GiraffeWebApp/.paket/load/net463/System.IO.FileSystem.csx" 
+#load "/home/justin/code/fsharp/GiraffeWebApp/GiraffeWebApp/.paket/load/net463/System.IO.FileSystem.Primitives.csx" 
+#load "/home/justin/code/fsharp/GiraffeWebApp/GiraffeWebApp/.paket/load/net463/System.Resources.ResourceManager.csx" 
+#load "/home/justin/code/fsharp/GiraffeWebApp/GiraffeWebApp/.paket/load/net463/System.Runtime.csx" 
+#load "/home/justin/code/fsharp/GiraffeWebApp/GiraffeWebApp/.paket/load/net463/System.Runtime.Extensions.csx" 
+#load "/home/justin/code/fsharp/GiraffeWebApp/GiraffeWebApp/.paket/load/net463/System.Runtime.InteropServices.csx" 
+#load "/home/justin/code/fsharp/GiraffeWebApp/GiraffeWebApp/.paket/load/net463/System.Text.Encoding.csx" 
+#load "/home/justin/code/fsharp/GiraffeWebApp/GiraffeWebApp/.paket/load/net463/System.Text.Encoding.Extensions.csx" 
+#load "/home/justin/code/fsharp/GiraffeWebApp/GiraffeWebApp/.paket/load/net463/System.Text.RegularExpressions.csx" 
+#load "/home/justin/code/fsharp/GiraffeWebApp/GiraffeWebApp/.paket/load/net463/System.Threading.Tasks.csx" 
+#load "/home/justin/code/fsharp/GiraffeWebApp/GiraffeWebApp/.paket/load/net463/System.Threading.Tasks.Extensions.csx" 
+#r "/home/justin/.nuget/packages/system.xml.readerwriter/4.3.1/lib/net46/System.Xml.ReaderWriter.dll" 

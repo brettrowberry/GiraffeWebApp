@@ -1,0 +1,15 @@
+namespace PaketLoadScripts
+
+#load "/home/justin/code/fsharp/GiraffeWebApp/GiraffeWebApp/.paket/load/xamarinios/Microsoft.AspNetCore.Authentication.Core.csx" 
+#load "/home/justin/code/fsharp/GiraffeWebApp/GiraffeWebApp/.paket/load/xamarinios/Microsoft.AspNetCore.Hosting.Abstractions.csx" 
+#load "/home/justin/code/fsharp/GiraffeWebApp/GiraffeWebApp/.paket/load/xamarinios/Microsoft.AspNetCore.Http.csx" 
+#load "/home/justin/code/fsharp/GiraffeWebApp/GiraffeWebApp/.paket/load/xamarinios/Microsoft.AspNetCore.Http.Extensions.csx" 
+#load "/home/justin/code/fsharp/GiraffeWebApp/GiraffeWebApp/.paket/load/xamarinios/Microsoft.AspNetCore.HttpOverrides.csx" 
+#load "/home/justin/code/fsharp/GiraffeWebApp/GiraffeWebApp/.paket/load/xamarinios/Microsoft.Extensions.Logging.Abstractions.csx" 
+#load "/home/justin/code/fsharp/GiraffeWebApp/GiraffeWebApp/.paket/load/xamarinios/Microsoft.Extensions.Options.csx" 
+#load "/home/justin/code/fsharp/GiraffeWebApp/GiraffeWebApp/.paket/load/xamarinios/System.Buffers.csx" 
+#load "/home/justin/code/fsharp/GiraffeWebApp/GiraffeWebApp/.paket/load/xamarinios/System.IO.Pipelines.csx" 
+#load "/home/justin/code/fsharp/GiraffeWebApp/GiraffeWebApp/.paket/load/xamarinios/System.Memory.csx" 
+#load "/home/justin/code/fsharp/GiraffeWebApp/GiraffeWebApp/.paket/load/xamarinios/System.Runtime.CompilerServices.Unsafe.csx" 
+#load "/home/justin/code/fsharp/GiraffeWebApp/GiraffeWebApp/.paket/load/xamarinios/System.Security.Principal.Windows.csx" 
+#r "/home/justin/.nuget/packages/microsoft.aspnetcore.server.iisintegration/2.1.2/lib/netstandard2.0/Microsoft.AspNetCore.Server.IISIntegration.dll" 

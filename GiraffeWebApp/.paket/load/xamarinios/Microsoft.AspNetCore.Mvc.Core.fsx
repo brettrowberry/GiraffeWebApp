@@ -1,0 +1,16 @@
+namespace PaketLoadScripts
+
+#load "/home/justin/code/fsharp/GiraffeWebApp/GiraffeWebApp/.paket/load/xamarinios/Microsoft.AspNetCore.Authentication.Core.fsx" 
+#load "/home/justin/code/fsharp/GiraffeWebApp/GiraffeWebApp/.paket/load/xamarinios/Microsoft.AspNetCore.Authorization.Policy.fsx" 
+#load "/home/justin/code/fsharp/GiraffeWebApp/GiraffeWebApp/.paket/load/xamarinios/Microsoft.AspNetCore.Hosting.Abstractions.fsx" 
+#load "/home/justin/code/fsharp/GiraffeWebApp/GiraffeWebApp/.paket/load/xamarinios/Microsoft.AspNetCore.Http.fsx" 
+#load "/home/justin/code/fsharp/GiraffeWebApp/GiraffeWebApp/.paket/load/xamarinios/Microsoft.AspNetCore.Http.Extensions.fsx" 
+#load "/home/justin/code/fsharp/GiraffeWebApp/GiraffeWebApp/.paket/load/xamarinios/Microsoft.AspNetCore.Mvc.Abstractions.fsx" 
+#load "/home/justin/code/fsharp/GiraffeWebApp/GiraffeWebApp/.paket/load/xamarinios/Microsoft.AspNetCore.ResponseCaching.Abstractions.fsx" 
+#load "/home/justin/code/fsharp/GiraffeWebApp/GiraffeWebApp/.paket/load/xamarinios/Microsoft.AspNetCore.Routing.fsx" 
+#load "/home/justin/code/fsharp/GiraffeWebApp/GiraffeWebApp/.paket/load/xamarinios/Microsoft.Extensions.DependencyInjection.fsx" 
+#load "/home/justin/code/fsharp/GiraffeWebApp/GiraffeWebApp/.paket/load/xamarinios/Microsoft.Extensions.DependencyModel.fsx" 
+#load "/home/justin/code/fsharp/GiraffeWebApp/GiraffeWebApp/.paket/load/xamarinios/Microsoft.Extensions.FileProviders.Abstractions.fsx" 
+#load "/home/justin/code/fsharp/GiraffeWebApp/GiraffeWebApp/.paket/load/xamarinios/Microsoft.Extensions.Logging.Abstractions.fsx" 
+#load "/home/justin/code/fsharp/GiraffeWebApp/GiraffeWebApp/.paket/load/xamarinios/System.Diagnostics.DiagnosticSource.fsx" 
+#r "/home/justin/.nuget/packages/microsoft.aspnetcore.mvc.core/2.1.3/lib/netstandard2.0/Microsoft.AspNetCore.Mvc.Core.dll" 

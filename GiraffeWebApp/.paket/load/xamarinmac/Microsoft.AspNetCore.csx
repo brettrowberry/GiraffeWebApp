@@ -1,0 +1,18 @@
+namespace PaketLoadScripts
+
+#load "/home/justin/code/fsharp/GiraffeWebApp/GiraffeWebApp/.paket/load/xamarinmac/Microsoft.AspNetCore.Diagnostics.csx" 
+#load "/home/justin/code/fsharp/GiraffeWebApp/GiraffeWebApp/.paket/load/xamarinmac/Microsoft.AspNetCore.HostFiltering.csx" 
+#load "/home/justin/code/fsharp/GiraffeWebApp/GiraffeWebApp/.paket/load/xamarinmac/Microsoft.AspNetCore.Hosting.csx" 
+#load "/home/justin/code/fsharp/GiraffeWebApp/GiraffeWebApp/.paket/load/xamarinmac/Microsoft.AspNetCore.Routing.csx" 
+#load "/home/justin/code/fsharp/GiraffeWebApp/GiraffeWebApp/.paket/load/xamarinmac/Microsoft.AspNetCore.Server.IISIntegration.csx" 
+#load "/home/justin/code/fsharp/GiraffeWebApp/GiraffeWebApp/.paket/load/xamarinmac/Microsoft.AspNetCore.Server.Kestrel.csx" 
+#load "/home/justin/code/fsharp/GiraffeWebApp/GiraffeWebApp/.paket/load/xamarinmac/Microsoft.AspNetCore.Server.Kestrel.Https.csx" 
+#load "/home/justin/code/fsharp/GiraffeWebApp/GiraffeWebApp/.paket/load/xamarinmac/Microsoft.Extensions.Configuration.CommandLine.csx" 
+#load "/home/justin/code/fsharp/GiraffeWebApp/GiraffeWebApp/.paket/load/xamarinmac/Microsoft.Extensions.Configuration.EnvironmentVariables.csx" 
+#load "/home/justin/code/fsharp/GiraffeWebApp/GiraffeWebApp/.paket/load/xamarinmac/Microsoft.Extensions.Configuration.FileExtensions.csx" 
+#load "/home/justin/code/fsharp/GiraffeWebApp/GiraffeWebApp/.paket/load/xamarinmac/Microsoft.Extensions.Configuration.Json.csx" 
+#load "/home/justin/code/fsharp/GiraffeWebApp/GiraffeWebApp/.paket/load/xamarinmac/Microsoft.Extensions.Configuration.UserSecrets.csx" 
+#load "/home/justin/code/fsharp/GiraffeWebApp/GiraffeWebApp/.paket/load/xamarinmac/Microsoft.Extensions.Logging.csx" 
+#load "/home/justin/code/fsharp/GiraffeWebApp/GiraffeWebApp/.paket/load/xamarinmac/Microsoft.Extensions.Logging.Configuration.csx" 
+#load "/home/justin/code/fsharp/GiraffeWebApp/GiraffeWebApp/.paket/load/xamarinmac/Microsoft.Extensions.Logging.Console.csx" 
+#load "/home/justin/code/fsharp/GiraffeWebApp/GiraffeWebApp/.paket/load/xamarinmac/Microsoft.Extensions.Logging.Debug.csx" 

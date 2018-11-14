@@ -1,0 +1,4 @@
+namespace PaketLoadScripts
+
+#load "/home/justin/code/fsharp/GiraffeWebApp/GiraffeWebApp/.paket/load/xamarinwatchos/Microsoft.EntityFrameworkCore.Relational.csx" 
+#load "/home/justin/code/fsharp/GiraffeWebApp/GiraffeWebApp/.paket/load/xamarinwatchos/System.Data.SqlClient.csx" 

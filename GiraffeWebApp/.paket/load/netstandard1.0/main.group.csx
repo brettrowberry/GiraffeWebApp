@@ -1,0 +1,16 @@
+namespace PaketLoadScripts
+
+#r "/home/justin/.nuget/packages/remotion.linq/2.2.0/lib/netstandard1.0/Remotion.Linq.dll" 
+#r "/home/justin/.nuget/packages/system.diagnostics.contracts/4.3.0/lib/netstandard1.0/System.Diagnostics.Contracts.dll" 
+#r "/home/justin/.nuget/packages/system.security.principal/4.3.0/lib/netstandard1.0/System.Security.Principal.dll" 
+#r "/home/justin/.nuget/packages/xunit.abstractions/2.0.3/lib/netstandard1.0/xunit.abstractions.dll" 
+#r "/home/justin/.nuget/packages/system.componentmodel.typeconverter/4.3.0/lib/netstandard1.0/System.ComponentModel.TypeConverter.dll" 
+#r "/home/justin/.nuget/packages/system.collections.immutable/1.5.0/lib/netstandard1.0/System.Collections.Immutable.dll" 
+#r "/home/justin/.nuget/packages/system.componentmodel.primitives/4.3.0/lib/netstandard1.0/System.ComponentModel.Primitives.dll" 
+#r "/home/justin/.nuget/packages/system.interactive.async/3.2.0/lib/netstandard1.0/System.Interactive.Async.dll" 
+#r "/home/justin/.nuget/packages/system.numerics.vectors/4.5.0/lib/netstandard1.0/System.Numerics.Vectors.dll" 
+#r "/home/justin/.nuget/packages/system.runtime.compilerservices.unsafe/4.5.2/lib/netstandard1.0/System.Runtime.CompilerServices.Unsafe.dll" 
+#r "/home/justin/.nuget/packages/system.text.encodings.web/4.5.0/lib/netstandard1.0/System.Text.Encodings.Web.dll" 
+#r "/home/justin/.nuget/packages/system.threading.tasks.extensions/4.5.1/lib/netstandard1.0/System.Threading.Tasks.Extensions.dll" 
+#r "/home/justin/.nuget/packages/system.valuetuple/4.5.0/lib/netstandard1.0/System.ValueTuple.dll" 
+#r "/home/justin/.nuget/packages/newtonsoft.json/11.0.2/lib/netstandard1.0/Newtonsoft.Json.dll" 
