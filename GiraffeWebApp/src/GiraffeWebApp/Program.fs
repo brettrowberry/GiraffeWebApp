@@ -69,7 +69,7 @@ let personHandler (person : Person) : HttpHandler =
     |> Successful.OK
 
 let nameHandler (name) : HttpHandler =
-    Say.hello "Justin"
+    sprintf "Hello %s, from Giraffe!" name
     |> Successful.OK
 
 let webApp =
